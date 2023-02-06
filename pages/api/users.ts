@@ -10,6 +10,9 @@ var data1 = Array(8)
   .map((_, i) => i);
 console.log(data1);
 
+
+const d = [{ id: 1, key: "S01", address: "", devices: ["router", "video", "provider"] }]
+
 const users: User[] = [{ id: 1 }, { id: 2 }, { id: 3 }];
 // const rooms: User[] = [{ id: 1 }, { id: 2 }, { id: 3 }]
 
